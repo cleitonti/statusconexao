@@ -1,0 +1,95 @@
+body {
+  background: #1a1a1a; /* fundo escuro */
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  color: #ffffff; /* texto claro */
+}
+
+.card {
+  background: #2c2c2c; /* container com fundo escuro neutro */
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+  width: 320px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+}
+
+.card h2 {
+  margin: 10px 0;
+  color: #00b389; /* destaque com cor primária */
+}
+
+.card p {
+  color: #cccccc;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.card input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #00b389;
+  border-radius: 6px;
+  background: #1a1a1a;
+  color: #ffffff;
+  outline: none;
+  transition: border 0.3s;
+}
+
+.card input:focus {
+  border-color: #66d1bb; /* verde claro ao focar */
+}
+
+.card button {
+  width: 100%;
+  padding: 10px;
+  background: #00b389;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.card button:hover {
+  background: #009973;
+}
+
+.card .icon {
+  font-size: 40px;
+  margin-bottom: 10px;
+  color: #00b389;
+}
+
+.result {
+  margin-top: 20px;
+}
+
+.result p {
+  margin: 8px 0;
+  color: #f5f5f5;
+}
+
+.back-button {
+  margin-top: 20px;
+  padding: 10px;
+  background: #00b389;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.back-button:hover {
+  background: #009973;
+}
